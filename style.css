@@ -141,3 +141,58 @@ ul{
   align-items: center;
   justify-content: center;
 }
+
+.addTodoForm{
+  display: none;
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.addTodoForm form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.addTodoForm input[type="text"]{
+  outline: none;
+  border: 1px solid #204E4A;
+  padding: 10px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.addTodoBtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 90px;
+  padding: 8px;
+  background-color: #204E4A;
+  color: #ECBA82;
+  font-family: "Madimi One", sans-serif;
+  border-radius: 5px;
+}
+
+.cancelTodoBtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 90px;
+  padding: 8px;
+  background-color: red;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  border-radius: 5px;
+}
