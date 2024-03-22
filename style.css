@@ -124,10 +124,6 @@ ul{
   transform: scale(1);
 }
 
-.todoCheck:hover {
-  color: black;
-}
-
 .deleteTodo{
   cursor: pointer;
   border: none;
@@ -186,6 +182,61 @@ ul{
 }
 
 .cancelTodoBtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 90px;
+  padding: 8px;
+  background-color: red;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  border-radius: 5px;
+}
+
+.editTodoForm{
+  display: none;
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.editTodoForm form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.editTodoForm input[type="text"]{
+  outline: none;
+  border: 1px solid #204E4A;
+  padding: 10px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.saveTodoBtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 90px;
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  border-radius: 5px;
+}
+
+.cancelTodoSaveBtn{
   cursor: pointer;
   outline: none;
   border: none;
